@@ -2,7 +2,7 @@
 This repo implements the concept of Authorization Services using Keycloak as Authorization Server.
 
 ## Authorization Flow
-You can see the presentation on this [file]().
+You can see the presentation on this [file](https://github.com/carloselpapa10/authorization-keycloak/blob/master/Authorization%20with%20Keycloak.pdf).
 
 ## Prerequisites
 - Java 8 or greater
@@ -20,7 +20,7 @@ PWD: 123456
 ```
 
 ## Import the Realm in Keycloak
-Once you have installed Keycloak, import the realm located on this [file]().
+Once you have installed Keycloak, import the realm located on this [file](https://github.com/carloselpapa10/authorization-keycloak/blob/master/quickstart-realm.json).
 
 ### Run the application
 ```sh
@@ -44,7 +44,7 @@ Check if the access_token variable contains the requested token.
 $ echo $access_token
 ```
 
-Default Resource '/''
+Default Resource '/'
 ```sh
 $ curl -v -X GET http://localhost:8888/ -H "Authorization: Bearer "$access_token
 ```
